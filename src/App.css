@@ -2,6 +2,7 @@
     background-color: #c00025;
     width: 100%;
     max-width: 550px;
+    height: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
@@ -19,4 +20,22 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .num-div {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 90%;   
+  }
+
+  .num-btn {
+     border: 2px rgb(8, 8, 90);    
+    padding: .9rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: white;
+    background: rgb(8, 8, 90);
+    /* width: 40%; */
   }
