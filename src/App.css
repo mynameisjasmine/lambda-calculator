@@ -1,11 +1,17 @@
 .container {
     background-color: #c00025;
+    
     width: 100%;
     max-width: 550px;
     height: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+}
+
+.logo-container {
+    /* border: 2px solid green;   */
+    margin: 2rem 1rem;
 }
 .display {
     margin-top: 25px;
@@ -25,17 +31,41 @@
   .num-div {
     /* border: 2px solid green; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    width: 90%;   
+    margin-left: 4rem;
+    width: 25%;   
   }
 
   .num-btn {
-     border: 2px rgb(8, 8, 90);    
-    padding: .9rem;
+    border: 2px rgb(8, 8, 90);    
+    padding: 1rem;
+    margin-bottom: .5rem;
     border-radius: 50%;
     font-size: 1.3rem;
     color: white;
     background: rgb(8, 8, 90);
-    /* width: 40%; */
+    
+  }
+
+  .op-div {
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+    position: relative;
+    left: 13rem;
+    top: -15.7rem;
+    margin-left: 1rem;
+    width: 8%;    
+  }
+
+  .op-btn {
+    border: 3px rgb(8, 8, 90);    
+    padding: .3rem;
+    margin-bottom: .8rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: white;
+    background: rgb(67, 180, 218);   
   }
