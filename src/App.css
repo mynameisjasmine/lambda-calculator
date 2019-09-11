@@ -2,21 +2,29 @@
     background-color: #c00025;
     
     width: 100%;
-    max-width: 550px;
-    height: 500px;
+    /* max-width: 550px; */
+    max-width: 460px;
+    height: 590px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
 
+
+
 .logo-container {
     /* border: 2px solid green;   */
-    margin: 2rem 1rem;
+    /* margin: 2rem  1.5rem; */
+    margin: 2rem  6rem;
+    padding-bottom: 1.5rem;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    position: relative;
+    top: -58rem;
+    /* margin: 29px 0 0 20px; */
+    margin: 29px 0 0 105px;
+    height: 60px;
+    width: 254px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -28,19 +36,45 @@
     font-size: 5.0rem;
   }
 
+  .spec-div {
+    /* border: 2px solid green;   */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 2.5rem;
+    /* left: 2rem; */
+    left: 7rem;
+    width: 30%;
+  }
+
+  .spec-btn {
+    border: 2px rgb(113, 113, 201);    
+    padding: 1.3rem;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: white;
+    background: rgb(113, 113, 201);  
+  }
+
   .num-div {
     /* border: 2px solid green; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 4rem;
-    width: 25%;   
+    /* margin-left: 2.3rem; */
+    margin-left: 7.5rem;
+    margin-top: 3.5rem;
+    /* width: 27%;  */
+    width: 44%;   
   }
 
   .num-btn {
     border: 2px rgb(8, 8, 90);    
-    padding: 1rem;
+    /* padding: 1.5rem; */
+    padding: 1.5rem;
     margin-bottom: .5rem;
     border-radius: 50%;
     font-size: 1.3rem;
@@ -49,21 +83,28 @@
     
   }
 
+  .num-btn:nth-child(10) {
+    /* border: 2px solid green; */
+    padding: 0 3.7rem;
+    border-radius: 40%;
+  }
+
   .op-div {
     display: flex;
     flex-direction: column;
      justify-content: center; 
     position: relative;
-    left: 13rem;
-    top: -15.7rem;
-    margin-left: 1rem;
-    width: 8%;    
+    /* left: 15rem; */
+    left: 20rem;
+    top: -25.5rem;
+    margin-left: 1.4rem;
+    width: 12%;    
   }
 
   .op-btn {
     border: 3px rgb(8, 8, 90);    
-    padding: .3rem;
-    margin-bottom: .8rem;
+    padding: 1.3rem;
+    margin-bottom: 1rem;
     border-radius: 50%;
     font-size: 1.3rem;
     color: white;
